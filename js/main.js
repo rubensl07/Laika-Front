@@ -44,7 +44,7 @@ function criarCard(produto) {
     card.replaceChildren(imagemProduto,contentBottom)
     containerProdutos.appendChild(card)
 
-    card.addEventListener('click',()=>{
+    btn_comprar.addEventListener('click',()=>{
         window.location.href='./telaCompra.html?id='+produto.id
     })
 }
